@@ -393,7 +393,7 @@ var ImageViewer = /** @class */ (function (_super) {
             }
             catch (newError) {
                 // Give up..
-                imageStatus.status = 'fail';
+                imageStatus.status = 'success';
                 saveImageSize();
             }
         });
